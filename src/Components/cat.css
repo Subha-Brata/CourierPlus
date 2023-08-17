@@ -1,0 +1,92 @@
+.cat-cont{
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+}
+.search{
+    border:1px solid #092397;
+    text-decoration: none;
+    background-color: none;
+    width:fit-content;
+    margin: auto;
+    border-radius: 10px;
+    padding:5px
+}
+.input{
+    outline:none;
+    border: none;
+    background-color: #F8F6F4;
+}
+.input:focus{
+    outline:none;
+    text-decoration: none;
+}
+.cat {
+    position: absolute;
+  /* left: 100%; Start cards outside the container */
+  transition: left 1s ease-in-out;  }
+  
+  .cat.active {
+    display: block; 
+    left: 0;
+    text-align: center;
+    position:relative;
+    margin:20px 0px;
+    width:50%
+  }
+  .cat.prev {
+  left: -100%; /* Slide previous card from left to center */
+}
+.cat.next {
+    left: 100%; /* Slide next card from right to center */
+  }
+  .btn{
+    border: none;
+    text-decoration: none;
+  }
+  
+.cat-list{
+    display: flex;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.category {
+  font-family: "Lunasima", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Serif", serif;
+  text-align: left;
+  margin-left: 45px;
+}
+.cat-img{
+    max-width:auto;
+    width:auto;
+    border-radius: 15px;
+    height:20vh;
+}
+
+
+ 
+.cat:hover .cat-title{
+    display: block;
+    transition: 2s;
+    transform:translate(-50%,-50%);
+}
+
+.cat-title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-55%,-50%);
+    color:#092397;
+    display:none;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Lunasima', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-weight: 800;
+    font-size: 3rem;
+}

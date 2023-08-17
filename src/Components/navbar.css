@@ -1,0 +1,43 @@
+nav{
+    border-radius: 15px;
+    padding:0px 20px;
+    background:#F8F6F4;
+}
+.brand{
+    color:#092397;
+    font-weight: 700;
+    font-size: 30px;
+    display: inline-flex;
+}
+.navbar-brand{
+    font-family: 'Lunasima', sans-serif;
+    font-family: 'PT Serif', serif;
+    color:#4663f3;
+    font-size: 30px;
+    font-weight: 300;
+}
+.navbar-brand:hover{
+    color: #1036df;
+}
+.nav-link{
+    color:#8EA7E9;
+}
+.nav-link:hover{
+    color: #1036df;
+    border-bottom:1px solid #092397;
+}
+.sign{
+    background-color: #BCCEF8;
+    color:#092397;
+    font-size: 15px;
+    padding:10px 20px;
+    font-weight: 600;
+}
+.sign:hover{
+    background-color: #8EA7E9;
+    transform:translate(-1%,-1%);
+}
+.sign::after{
+    background-color: #8EA7E9;
+    border:none;
+}

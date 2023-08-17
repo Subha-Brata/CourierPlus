@@ -1,0 +1,73 @@
+.plan-heading{
+    
+    text-align: center;
+    font-weight: 200;
+}
+.plan-list{
+    display: flex;
+  overflow-x: auto; 
+  padding: 20px;
+}
+.plan{
+    flex: 0 0 calc(30% - 20px);
+    background-color: #e5e8fb;
+    margin: 10px auto;
+    border-radius:15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+    .plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .plan:hover ~ .plan {
+    opacity: 0.5;
+  }
+  
+  .plan:hover .plan-header  {
+    color: #0056b3;
+  }
+  .plan:hover .plan-price{
+    color:#007bff
+  }
+  
+  .plan-header {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+  }
+  
+  .plan-price {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .plan-perks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .plan-perks li {
+    margin-bottom: 5px;
+    color:rgb(142, 142, 142)
+  }
+  
+  /* .checkout-button {
+    display: block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  } */
+  
+  /* .checkout-button:hover {
+    background-color: #0056b3;
+  } */
+  

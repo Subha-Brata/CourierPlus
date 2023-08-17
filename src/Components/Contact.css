@@ -1,0 +1,24 @@
+.footer{
+    background-color: #092397;
+    color:#e5e8fb;
+    padding:40px;
+    border-radius: 15px;
+}
+.add{
+    text-align: center;
+}
+.social-icons{
+    margin: auto;
+    font-size: 40px;
+}
+.bi{
+    margin:15px;
+    margin-top: 8px;
+    color:#e5e8fb;
+    transition: .5s;
+}
+.bi:hover{
+    font-size: 47px;
+    color: #8EA7E9;
+    
+}

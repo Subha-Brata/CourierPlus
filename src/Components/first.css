@@ -1,0 +1,44 @@
+.first{
+    height:100%;
+    margin-top: 5vw;
+}
+.truck{
+    max-width: 100%;
+    animation:truck;
+    animation-duration: 2s;
+}
+@keyframes truck{
+    from{
+        transform:translateX(100%);   
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+@keyframes up{
+    from{
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+.col{
+    padding: 45px;
+    vertical-align: middle;
+    animation: up 1s; 
+   
+}
+.want{
+    font-weight: 200;
+}
+.line{
+    color:#1036df;
+    font-size: 60px;
+}
+h3{
+    font-size: 20px;
+}
